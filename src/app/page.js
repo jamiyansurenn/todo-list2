@@ -15,10 +15,10 @@ export default function Home() {
     setTodos([...todos, { todo: newTodo, isCompleted: false }]);
     setNewTodo(""); 
   };
-
+ 
 
   const deleteHandler = (todoToDelete) => {
-    if (window.confirm("Ustgaa shaala shvv llar min unen yumuugit ?")) {
+    if (window.confirm("Are you sure you want to delete this task ?")) {
       const updatedTodos = todos.filter(
         (todo) => todo.todo !== todoToDelete.todo
       );
@@ -130,7 +130,7 @@ export default function Home() {
         )}
         <div className={styles.bottom}>
           <p>Powered by</p>
-          <a href="https://github.com/jamiyansurenn">Lalar gej bnu xxk</a>
+          <a href="https://github.com/jamiyansurenn">Kdl2k</a>
         </div>
       </div>
       <Click />

@@ -5,51 +5,63 @@
   justify-content: space-around;
   padding: 40px;
   gap: 20px;
-  background-color: gray;
+  background-color: #f4f6f9; 
   border-radius: 20px;
   width: 400px;
-  color: black;
+  color: #333; 
 }
+
 .todo-container h1 {
   font-family: fantasy;
   font-size: 40px;
+  color: #4f6d7a; 
 }
+
 .flex {
   display: flex;
   gap: 6px;
 }
+
 .bg-blue {
-  background-color: rgb(0, 0, 0);
+  background-color: #4f6d7a; 
   padding: 13px;
   border-radius: 10px;
   width: 100%;
   height: 50px;
 }
+
 .bg-blue input {
   width: 100%;
   border-radius: 10px;
-  border: none;
-  padding: 2px;
+  border: 1px solid #ccc; 
+  padding: 8px;
+  background-color: #fff; 
 }
+
 .bg-blue button {
   width: 30%;
   border-radius: 10px;
   border: none;
+  background-color: #3c82f6; 
+  color: white;
   cursor: pointer;
 }
+
 .filterButtons button {
   padding: 4px 12px;
-  background-color: #000000;
+  background-color: #8cb2ef; 
   border-radius: 6px;
   color: #ffffff;
   border: none;
   width: 100px;
   cursor: pointer;
 }
+
 .activeStyle {
-  background-color: #3c82f6 !important;
+  background-color: #3c82f6 !important; 
   color: white;
 }
+
 .tasks {
   width: 100%;
   display: flex;
@@ -61,35 +73,38 @@
 
 .listCont {
   display: flex;
-  background-color: rgb(0, 0, 0);
+  background-color: #2a3d45; 
   color: white;
   width: 100%;
   max-height: 60px;
   border-radius: 10px;
   justify-content: space-between;
-  padding: 5px;
+  padding: 10px;
   align-items: center;
 }
+
 .listContChild {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
+
 .listCont button {
   width: 70px;
   height: 20px;
-  color: red;
+  color: #e74c3c; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
   background-color: white;
 }
+
 .listContChild input {
   width: 20px;
   height: 20px;
-  border-radius: 50px;
-  background-color: #3c82f6;
+  border-radius: 50%;
+  background-color: #3c82f6; 
   cursor: pointer;
 }
 
@@ -98,6 +113,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .bottom {
   display: flex;
   gap: 10px;
